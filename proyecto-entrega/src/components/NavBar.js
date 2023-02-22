@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, Nav , Container} from 'react-bootstrap';
+import CartWidget from "./CartWidget";
 
 export default class NavBar extends Component{
   render(){
@@ -26,6 +26,7 @@ export default class NavBar extends Component{
           <a className="nav-link" href="#">Battle</a>
         </li>
       </ul>
+      <CartWidget cantidadCarrito={10}/>
     </div>
   </div>
 </nav>
